@@ -12,12 +12,6 @@ for (int i = number; i > 0; i /= 10)
 {
     result = (result * 10) + (i % 10);
 }
-/*while (number > 0)
-{
-    int x = number % 10;
-    result = result * 10 + x;
-    number = number / 10;
-}*/
 if (result==number)
 {
     Console.WriteLine("Является палиндромом.");
